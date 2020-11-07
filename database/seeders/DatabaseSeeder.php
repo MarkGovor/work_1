@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         BookMark::factory(10000)->create();
+         BookMark::factory(100000)->create();
 
 
     }
